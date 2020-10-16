@@ -27,7 +27,7 @@ body
 #AboutMe h1
 {
     font-size: 30px;
-    line-height: 1.7;
+    line-height: 2.0;
 }
 
 #AboutMe p
@@ -35,6 +35,7 @@ body
     width: 150%;
     font-size: 2vh;
     text-align: justify;
+    overflow: hidden;
 }    
 
 #sectionA-Title, #sectionB-Title
@@ -66,10 +67,20 @@ body
     height: 12vh;     
 }
 
+.GameTitle
+{
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    line-height: 2.0;
+}
+
 .row 
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
   
 .column 
@@ -151,7 +162,7 @@ a
 
 .icons
 {
-    width: 3%;
+    width: 30px;
     transition: transform 0.2s;
 }
 
