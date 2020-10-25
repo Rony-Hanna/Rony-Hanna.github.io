@@ -76,6 +76,15 @@ body
     line-height: 2.0;
 }
 
+.GameDownload
+{
+    font-size: 11px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    line-height: 2.0;
+}
+
 .row 
 {
     display: flex;
