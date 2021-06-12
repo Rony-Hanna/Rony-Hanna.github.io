@@ -4,6 +4,17 @@
     padding: 0;
 }
 
+h1, P
+{
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: orange;
+}
+
 body 
 {
     background-repeat: no-repeat;
@@ -15,13 +26,14 @@ body
     background-image: url("Images/background.jpg");
     background-size: cover;
     background-position: center;
-    height: 50vh;
-    display: flex;
+	flex-basis: auto;
+    display: flex;	
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 30%;
+	padding: 0 30%;
+	min-height: 50vh;	
 }
 
 #AboutMe h1
@@ -32,10 +44,9 @@ body
 
 #AboutMe p
 {
-    width: 150%;
+	text-align: justify;
+    width: 125%;
     font-size: 2vh;
-    text-align: justify;
-    overflow: hidden;
 }    
 
 #sectionA-Title, #sectionB-Title
@@ -64,7 +75,7 @@ body
     align-items: center;
     text-align: center;
     padding: 10px 30px;
-    height: 12vh;     
+	min-height: 10vh;	
 }
 
 .GameTitle
@@ -98,23 +109,6 @@ body
     padding: 25px 50px;
     font-size: 12px;
     position: relative;
-}
-
-h1 
-{
-    color: white;
-}
-
-p
-{
-    color: white;
-	word-wrap: break-word;
-}
-
-a
-{
-    text-decoration: none;
-    color: orange;
 }
 
 .container
