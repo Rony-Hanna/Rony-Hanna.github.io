@@ -45,7 +45,7 @@ body
 #AboutMe p
 {
 	text-align: justify;
-    width: 125%;
+    width: 150%;
     font-size: 2vh;
 }    
 
@@ -98,9 +98,9 @@ body
 
 .row 
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
   
 .column 
@@ -113,29 +113,28 @@ body
 
 .container
 {
-    overflow: hidden;
     width: 100%;
-    border-radius: 1.0em;
+    border-radius: 2.0em;
 }
 
 .container img
 {
-    transition: 0.29s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .container img:hover
 {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .zoom 
 {
-    transition: transform 0.2s;
+    transition: transform 0.1s;
 }
   
 .zoom:hover 
 {
-   transform: scale(1.1); 
+   transform: scale(1.05); 
 }
 
 .logo
